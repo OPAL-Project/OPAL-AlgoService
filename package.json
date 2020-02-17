@@ -1,0 +1,49 @@
+{
+  "name": "opal-algoservice",
+  "version": "0.0.1",
+  "description": "OPAL - AlgoServicemicro-service",
+  "main": "./src/opalAlgobank.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "inspect": "node inspect ./src/index.js",
+    "lint": "eslint src",
+    "test": "jest --runInBand --verbose --useStderr --forceExit --detectOpenHandles"
+  },
+  "keywords": [
+    "OPAL",
+    "AlgoBank"
+  ],
+  "contributors": [
+    "Shubham Jain <shubhamjain0594@gmail.com>",
+    "Axel Oehmichen <axelfrancois.oehmichen11@imperial.ac.uk>"
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoehmichen/OPAL-AlgoService"
+  },
+  "bugs": {
+    "url": "https://github.com/aoehmichen/OPAL-AlgoService/issues"
+  },
+  "homepage": "https://github.com/aoehmichen/OPAL-AlgoService#readme",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-eslint": "10.0.1",
+    "babel-plugin-transform-decorators-legacy": "1.3.5",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "eslint": "5.13.0",
+    "jest": "24.8.0",
+    "request": "2.88.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "eae-utils": "git+https://github.com/dsi-icl/eae-utils.git",
+    "express": "^4.16.2",
+    "fs-extra": "^6.0.0",
+    "mongodb": "^2.2.35",
+    "opal-utils": "git+https://github.com/yvesalexandre/OPAL-Utils.git#master"
+  }
+}

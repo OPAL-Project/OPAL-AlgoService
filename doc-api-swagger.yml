@@ -1,0 +1,10 @@
+swagger: '2.0'
+info:
+  version: 0.0.1
+  title: OPAL-AlgoService
+  license:
+    name: MIT
+    url: https://github.com/aoehmichen/OPAL-AlgoService/blob/master/LICENSE
+  description:  OPAL AlgoService
+
+paths:
