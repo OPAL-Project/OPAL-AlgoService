@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:experimental
-FROM node:stretch@sha256:0cc92d0934e9f990755b9b22bd449d665c559587b8f8bc4d0d4db33264f60762
+FROM node:stretch@sha256:7e6d5d50f05891e89443f463365e4f60093de12fbbb72c85f6a5fd06533b7fc7
 
 # Install all dependencies
 RUN apt-get update -q \
